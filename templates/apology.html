@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+
+{% block main %}
+    <!-- https://memegen.link/ -->
+    <img alt="{{ top }}" class="border img-fluid rounded-3" src="http://memegen.link/custom/{{ top | urlencode }}/{{ bottom | urlencode }}.jpg?alt=https://res.cloudinary.com/twenty20/private_images/t_standard-fit/photosp/5a833f33-df57-4700-945b-11217a90b3d4/stock-photo-dog-business-cute-pet-glasses-funny-smart-student-coding-5a833f33-df57-4700-945b-11217a90b3d4.jpg&width=500" title="{{ top }}">
+{% endblock %}
